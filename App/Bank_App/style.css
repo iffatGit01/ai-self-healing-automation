@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Header */
+.header {
+  background: #1a73e8;
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header span {
+  margin-right: 16px;
+  font-size: 0.95rem;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Login Page */
+#login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#login-card {
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+#login-card h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+#login-card h2 {
+  margin-bottom: 24px;
+  color: #555;
+  font-weight: 400;
+}
+
+/* Dashboard */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 32px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1558b0;
+}
+
+#logout-btn {
+  width: auto;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  background: white;
+  color: #1a73e8;
+  border: 1px solid white;
+}
+
+#logout-btn:hover {
+  background: #e8f0fe;
+}
+
+/* Balance */
+.balance {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+  margin: 12px 0 8px;
+}
+
+/* Messages */
+.success { color: #2e7d32; margin-top: 10px; }
+.error   { color: #c62828; margin-top: 10px; }
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+thead {
+  background: #f5f7fa;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+th {
+  font-weight: 600;
+  color: #555;
+}
+
+.status-success { color: #2e7d32; font-weight: 600; }
+.status-failed  { color: #c62828; font-weight: 600; }

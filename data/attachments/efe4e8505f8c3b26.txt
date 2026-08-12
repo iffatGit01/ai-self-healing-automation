@@ -1,0 +1,5 @@
+INFO     automation.ai.ollama_client:ollama_client.py:16 OllamaClient initialized with model: llama3.2
+INFO     automation.pages.login_page:login_page.py:34 Entering username: john
+INFO     automation.pages.login_page:login_page.py:39 Entering password
+INFO     automation.pages.login_page:login_page.py:44 Clicking login button
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #balance-display

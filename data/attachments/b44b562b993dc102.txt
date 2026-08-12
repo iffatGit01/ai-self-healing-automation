@@ -1,0 +1,7 @@
+INFO     automation.ai.ollama_client:ollama_client.py:16 OllamaClient initialized with model: llama3.2
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #username
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #password
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #login-btn
+INFO     automation.pages.login_page:login_page.py:34 Entering username: admin
+INFO     automation.pages.login_page:login_page.py:39 Entering password
+INFO     automation.pages.login_page:login_page.py:44 Clicking login button

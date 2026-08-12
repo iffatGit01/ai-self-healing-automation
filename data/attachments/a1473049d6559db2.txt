@@ -1,0 +1,2 @@
+INFO     automation.ai.ollama_client:ollama_client.py:16 OllamaClient initialized with model: llama3.2
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #no-transactions

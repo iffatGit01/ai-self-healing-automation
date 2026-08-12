@@ -1,0 +1,2 @@
+INFO     automation.pages.deposit_page:deposit_page.py:25 Entering deposit amount: 0
+INFO     automation.pages.deposit_page:deposit_page.py:30 Clicking deposit button

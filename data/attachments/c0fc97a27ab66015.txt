@@ -1,0 +1,1 @@
+INFO     automation.pages.login_page:login_page.py:44 Clicking login button

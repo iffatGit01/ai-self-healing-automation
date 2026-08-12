@@ -1,0 +1,5 @@
+INFO     automation.pages.login_page:login_page.py:34 Entering username: john
+INFO     automation.pages.login_page:login_page.py:39 Entering password
+INFO     automation.pages.login_page:login_page.py:44 Clicking login button
+INFO     automation.pages.withdraw_page:withdraw_page.py:25 Entering withdraw amount: 100
+INFO     automation.pages.withdraw_page:withdraw_page.py:30 Clicking withdraw button

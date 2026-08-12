@@ -1,0 +1,2 @@
+INFO     automation.pages.withdraw_page:withdraw_page.py:25 Entering withdraw amount: 0
+INFO     automation.pages.withdraw_page:withdraw_page.py:30 Clicking withdraw button

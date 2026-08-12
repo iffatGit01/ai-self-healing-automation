@@ -1,0 +1,5 @@
+INFO     automation.pages.login_page:login_page.py:34 Entering username: john
+INFO     automation.pages.login_page:login_page.py:39 Entering password
+INFO     automation.pages.login_page:login_page.py:44 Clicking login button
+INFO     automation.pages.deposit_page:deposit_page.py:25 Entering deposit amount: 250
+INFO     automation.pages.deposit_page:deposit_page.py:30 Clicking deposit button

@@ -1,0 +1,4 @@
+INFO     automation.pages.deposit_page:deposit_page.py:25 Entering deposit amount: 15000
+INFO     automation.pages.deposit_page:deposit_page.py:30 Clicking deposit button
+INFO     automation.pages.withdraw_page:withdraw_page.py:25 Entering withdraw amount: 10000
+INFO     automation.pages.withdraw_page:withdraw_page.py:30 Clicking withdraw button

@@ -1,0 +1,5 @@
+INFO     automation.ai.ollama_client:ollama_client.py:16 OllamaClient initialized with model: llama3.2
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #deposit-amount
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #deposit-btn
+INFO     automation.pages.deposit_page:deposit_page.py:25 Entering deposit amount: 500
+INFO     automation.pages.deposit_page:deposit_page.py:30 Clicking deposit button

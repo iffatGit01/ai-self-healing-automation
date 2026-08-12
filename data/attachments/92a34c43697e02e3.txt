@@ -1,0 +1,3 @@
+INFO     automation.ai.ollama_client:ollama_client.py:16 OllamaClient initialized with model: llama3.2
+INFO     automation.ai.healer:healer.py:53 ✅ Locator found: #logout-btn
+INFO     automation.pages.dashboard_page:dashboard_page.py:27 Clicking logout button
